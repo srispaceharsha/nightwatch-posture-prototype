@@ -2,6 +2,8 @@
 
 **Goal:** Build a Mac CLI prototype to test all 8 state transitions before building the iOS app.
 
+**Note** Entire code is written by Claude Code AI. A human did the orchestration and testing. 
+
 ## How to Run the app
 
 0. Open terminal and Clone the repo `gh repo clone srispaceharsha/nightwatch-posture-prototype`
