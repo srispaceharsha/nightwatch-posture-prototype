@@ -2,6 +2,16 @@
 
 **Goal:** Build a Mac CLI prototype to test all 8 state transitions before building the iOS app.
 
+## How to Run the app
+
+0. Open terminal and Clone the repo `gh repo clone srispaceharsha/nightwatch-posture-prototype`
+1. Change directory to project root folder, you should be in `nightwatch-posture-prototype` folder.
+2. run `uv venv --python 3.11`
+3. run `uv pip install -r requirements.txt`
+4. run `uv run python3 main.py`
+
+Good luck if you run in to any errors in the above steps!
+
 ---
 
 ## What to Build
