@@ -2,7 +2,7 @@
 
 **Goal:** Build a Mac CLI prototype to test all 8 state transitions before building the iOS app.
 
-**Note** Entire code is written by Claude Code AI. A human did the orchestration and testing. 
+**Note:** Entire code is written by Claude Code AI. A human did the orchestration and testing. 
 
 ## How to Run the app
 
