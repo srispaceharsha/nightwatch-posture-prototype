@@ -7,12 +7,12 @@
 ## What to Build
 
 A command-line Python application that:
-1. Uses webcam + MediaPipe Pose to detect posture
-2. Implements the full 8-state machine
-3. Prints state transitions as they happen
-4. Logs all state transitions with timestamps
-5. Shows basic metrics when state changes
-6. Allows tweaking detection parameters via config file
+1. Uses webcam + MediaPipe Pose to detect posture - DONE
+2. Implements the full 8-state machine - DONE with 6 state for now.
+3. Prints state transitions as they happen - DONE
+4. Logs all state transitions with timestamps - DONE
+5. Shows basic metrics when state changes - DONE
+6. Allows tweaking detection parameters via config file - DONE
 
 ---
 
@@ -42,8 +42,8 @@ Implement these exact states with transitions as specified:
 4. **SITTING_DETECTED** - Full sitting detected, timer counting
 5. **ALERT_ACTIVE** - Alert triggered
 6. **ALERT_COOLDOWN** - Post-alert suppression period
-7. **DETECTION_UNCERTAIN** - Low confidence detection
-8. **PERSON_ABSENT** - No person detected
+7. **DETECTION_UNCERTAIN** - Low confidence detection - TBD
+8. **PERSON_ABSENT** - No person detected - TBD
 
 ---
 
