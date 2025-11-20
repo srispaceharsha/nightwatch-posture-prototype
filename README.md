@@ -1,6 +1,25 @@
 # SeniorCare State Machine Prototype - README
 
-**Goal:** Build a Mac CLI prototype to test all 8 state transitions before building the iOS app.
+
+**Goal:**
+
+To monitor a patient / elderly person during day/night to alert when they sit up or move away from the bed. 
+
+The set up uses:
+1. Raspberry Pi 5
+2. IR camera
+3. Goole MediaPipe 
+4. Home Assistant Companion app
+
+Assumptions for this V1 version:
+
+1. There is only the `Person Under Monitoring (PUM)` in the camera's field view.
+2. Alerting set up will be turned on once the PUM is already lying flat on the bed / ground.
+3. After an alert, there is a pause window of X minutes, during which no alerts will be sent. 
+
+
+
+**Tech Goal:** Build a Mac CLI prototype to test all 8 state transitions before building the iOS app.
 
 **Note:** Entire code is written by Claude Code AI. A human did the orchestration and testing. 
 
