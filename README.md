@@ -1,4 +1,4 @@
-# SeniorCare State Machine Prototype - README
+# SeniorCare: Posture monitoring using state machines
 
 
 **Goal:**
